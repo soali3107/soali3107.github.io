@@ -13,5 +13,16 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soali3107/soali3107.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soali3107/soali3107.github.io/issues"
+  },
+  "homepage": "https://github.com/soali3107/soali3107.github.io#readme"
 }
