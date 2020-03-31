@@ -34,7 +34,7 @@
 							<li><a href="#projects" class="active">Projects</a></li>
 							<li><a href="#experience">Experience</a></li>
 							<li><a href="#achievements">Achievements</a></li>
-							<li><a href="#education">Education</a></li>
+							<li><a href="#footer">Education</a></li>
 						</ul>
 					</nav>
 
@@ -49,6 +49,18 @@
 											<h2>FlexIt</h2>
 										</header>
 										<p>Single-page clone of Netflix. Allows user to watch videos and add the video’s to their list.</p>
+										<ul>
+											Secured user login by using BCrypt and react-router components to keep track of session cookies, allow login to persist
+											across a session, and protect user-generated data.
+
+										</ul>
+										<ul>
+											Hosted pictures and videos in the cloud using AWS and have Active Storage accessible on the website, allowing easier
+											management of the data and allowing it to scale when more videos are added.
+										</ul>
+										<ul>
+											Integrated Redux with HTML5 media web components to create customized media playback for users.
+										</ul>
 										<ul class="actions">
 											<li><a target="_blank" href="https://netflex-aa.herokuapp.com/#/signup" class="button">Check it out!</a></li>
 											<li><a target="_blank" href="https://github.com/soali3107/flexit" class="button">GitHub</a></li>
@@ -64,6 +76,19 @@
 											<h2>Chess</h2>
 										</header>
 										<p>Online two player chess application.</p>
+										<ul>
+											Registered an onclick event listener which is triggered by selection of any piece or board space and displays possible
+											moves or completes a move respectively.
+										</ul>
+										<ul>
+											Construct hierarchy of pieces to create custom movement logic, allowing chess pieces to move as they would on a real
+											chessboard.
+										</ul>
+										<ul>
+											Built a custom function to Iteratively check through the appropriate pieces to check if playable moves result in the
+											king piece being in check or checkmate.
+
+										</ul>
 										<ul class="actions">
 											<li><a target="_blank" href="https://soali3107.github.io/chess/" class="button">Check it out!</a></li>
 											<li><a target="_blank" href="https://github.com/soali3107/chess" class="button">GitHub</a></li>
@@ -81,9 +106,11 @@
 								</header>
 								<ul class="features">
 									<li>
-										<!-- <span class="icon solid major style1 fa-code"></span> -->
+										<span class="icon solid major style1 fa-code"></span>
+										<span class="icon solid major style1 fa-html5"></span>
+
 										<!-- <i class="devicon-css3-plain colored"></i> -->
-										<svg viewBox="0 0 128 128">
+										<!-- <svg viewBox="0 0 128 128">
 											<path fill="#1572B6" d="M18.814 114.123l-10.054-112.771h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path>
 											<path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path>
 											<path fill="#fff"
@@ -96,38 +123,40 @@
 											<path fill="#EBEBEB"
 												d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z">
 											</path>
-										</svg>
+										</svg> -->
 										<h3>Ipsum consequat</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li>
 									<li>
 										<span class="icon brands major style3 fab fa-css3-alt"></span>
 										
-										<!-- <i class="fab major style3 fa-css3-alt"></i> -->
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<i class="fab major style3 fab fa-js-square"></i>
+										<h3>CSS3</h3>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
+										<!-- <span class="icon major style5 fa-gem"></span> -->
+										<span class="icon major style5 fab fa-js"></span>
 										<h3>Dolor nullam</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li>
 								</ul>
-								<footer class="major">
+								<!-- <footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
 							</section>
 
 						<!-- Second Section -->
 							<section id="achievements" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Achievements</h2>
+									<p>MITx 6.00.1x: Introduction to Computer Science and Programming Using Python (2020)</p>
+									<p>Stony Brook Presidential Scholarship (2015-2018)</p>
+									<p>Autodesk Inventor Certified User (2012)</p>
 								</header>
-								<ul class="statistics">
+								<!-- <ul class="statistics">
 									<li class="style1">
 										<span class="icon solid fa-code-branch"></span>
 										<strong>5,120</strong> Etiam
@@ -148,17 +177,17 @@
 										<span class="icon fa-gem"></span>
 										<strong>1,024</strong> Nullam
 									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
+								</ul> -->
+								<!-- <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p> -->
+								<!-- <footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> -->
 							</section>
 
 						<!-- Get Started -->
-							<section id="education" class="main special">
+							<!-- <section id="education" class="main special">
 								<header class="major">
 									<h2>Congue imperdiet</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -170,7 +199,7 @@
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
-							</section>
+							</section> -->
 
 					</div>
 
@@ -178,9 +207,11 @@
 					<footer id="footer">
 						<section>
 							<h2>Education</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<p>Full Stack Web Development - App Academy | Fall 2019 </p>
+							<p>	BS Education - Stony Brook University | 2015 - 2019 <br>
+								Applied Mathematics/Statistics and Information Systems Major</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
+								<li><a href="images/Sohail_Ali_Resume.pdf" class="button">Resume</a></li>
 							</ul>
 						</section>
 						<section>
