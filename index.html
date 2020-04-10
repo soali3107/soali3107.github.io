@@ -16,13 +16,20 @@
 
 	</head>
 	<body class="is-preload">
-
+		<style>
+			#headshot img {
+				border-radius: 50%;
+				height: 300px;
+				width: 300px;
+				object-fit: cover;
+			}
+		</style>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<span id = "headshot" class="logo"><img src="images/profImage.JPG" alt="" /></span>
 						<h1>Sohail Ali</h1>
 						<p>Software Engineer with experience using: <br />
 						Ruby / Rails, JavaScript, React, Redux, Python, Java, HTML, CSS, SQL.</p>
@@ -32,7 +39,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#projects" class="active">Projects</a></li>
-							<li><a href="#experience">Experience</a></li>
+							<li><a href="#experience">Skills</a></li>
 							<li><a href="#achievements">Achievements</a></li>
 							<li><a href="#footer">Education</a></li>
 						</ul>
@@ -48,18 +55,18 @@
 										<header class="major">
 											<h2>FlexIt</h2>
 										</header>
-										<p>Single-page clone of Netflix. Allows user to watch videos and add the video’s to their list.</p>
+										<p>Single-page clone of Netflix that allows users to watch videos and add videos to their lists.</p>
 										<ul>
 											Secured user login by using BCrypt and react-router components to keep track of session cookies, allow login to persist
 											across a session, and protect user-generated data.
-
 										</ul>
 										<ul>
-											Hosted pictures and videos in the cloud using AWS and have Active Storage accessible on the website, allowing easier
-											management of the data and allowing it to scale when more videos are added.
+											Hosted pictures and videos in the cloud using AWS integrated into the Rails Active Storage, providing easier asset
+											management and allowing scalability when more videos or general media are incorporated into the application.
 										</ul>
 										<ul>
-											Integrated Redux with HTML5 media web components to create customized media playback for users.
+											Integrated Redux with HTML5 media web elements to create customized media playback for users and ensure play/pause
+											status and video time is accessible throughout the application architecture.
 										</ul>
 										<ul class="actions">
 											<li><a target="_blank" href="https://netflex-aa.herokuapp.com/#/signup" class="button">Check it out!</a></li>
@@ -75,19 +82,18 @@
 										<header class="major">
 											<h2>Chess</h2>
 										</header>
-										<p>Online two player chess application.</p>
+										<p>Online 2-Player Chess game.</p>
 										<ul>
-											Registered an onclick event listener which is triggered by selection of any piece or board space and displays possible
-											moves or completes a move respectively.
+											Registered an ​onclick event listener which is triggered by selection of any piece or board space and incorporates
+											custom-built chess logic that collects all potential moves.
 										</ul>
 										<ul>
-											Construct hierarchy of pieces to create custom movement logic, allowing chess pieces to move as they would on a real
-											chessboard.
+											Constructed hierarchy of piece classes to create custom movement logic with classic object-oriented programming
+											patterns, leveraging inheritance to simplify and optimize codebase.
 										</ul>
 										<ul>
-											Built a custom function to Iteratively check through the appropriate pieces to check if playable moves result in the
-											king piece being in check or checkmate.
-
+											Built a custom check/checkmate function to iterate through the appropriate pieces to test if playable moves result in
+											the King piece being in check or checkmate.
 										</ul>
 										<ul class="actions">
 											<li><a target="_blank" href="https://soali3107.github.io/chess/" class="button">Check it out!</a></li>
@@ -102,12 +108,20 @@
 						<!-- First Section -->
 							<section id="experience" class="main special">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>Skills</h2>
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<span class="icon solid major style1 fa-html5"></span>
+										
+										<span class="icon brands major style3 fab fa-js-square"></span>
+									
+										<!-- <i class="fab major style3 fab fa-js-square"></i> -->
+										<h3>JavaScript</h3>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
+										
+										<!-- <span class="icon solid major style1 fa-code"></span>
+										<h3>Ipsum consequat</h3> -->
+										<!-- <span class="icon solid major style1 fa-html5"></span> -->
 
 										<!-- <i class="devicon-css3-plain colored"></i> -->
 										<!-- <svg viewBox="0 0 128 128">
@@ -124,21 +138,41 @@
 												d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z">
 											</path>
 										</svg> -->
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
 									</li>
 									<li>
 										<span class="icon brands major style3 fab fa-css3-alt"></span>
 										
-										<i class="fab major style3 fab fa-js-square"></i>
+										<!-- <i class="fab major style3 fab fa-js-square"></i> -->
 										<h3>CSS3</h3>
 										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
 									</li>
 									<li>
-										<!-- <span class="icon major style5 fa-gem"></span> -->
-										<span class="icon major style5 fab fa-js"></span>
+										<span class="icon brands major style3 fab fa-html5"></span>
+									
+										<!-- <i class="fab major style3 fab fa-js-square"></i> -->
+										<h3>HTML5</h3>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
+									</li>
+									<!-- <li>
+										<span class="icon major style5 fa-gem"></span> 
+										<span class="icon major style5 fab fa-html5"></span>
 										<h3>Dolor nullam</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li> -->
+									<li>
+										<span class="icon brands major style3 fab fa-python"></span>
+									
+										<!-- <i class="fab major style3 fab fa-js-square"></i> -->
+										<h3>Python</h3>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
+									</li>
+									<li>
+										<span class="icon brands major style3 fab fa-react"></span>
+									
+										<!-- <i class="fab major style3 fab fa-js-square"></i> -->
+										<h3>React</h3>
+										<!-- <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p> -->
 									</li>
 								</ul>
 								<!-- <footer class="major">
