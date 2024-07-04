@@ -10,12 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
+    "browser-sync": "^2.29.3",
+    "gulp": "^5.0.0",
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "gulp-cli": "^2.2.0"
+    "gulp-cli": "^3.0.0"
   },
   "repository": {
     "type": "git",
