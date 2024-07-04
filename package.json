@@ -12,10 +12,12 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^5.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.77.6"
   },
   "dependencies": {
-    "gulp-cli": "^3.0.0"
+    "gulp-cli": "^3.0.0",
+    "url-parse": "^1.5.10"
   },
   "repository": {
     "type": "git",
